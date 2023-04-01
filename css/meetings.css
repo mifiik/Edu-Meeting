@@ -1,0 +1,199 @@
+.upcomings_second {
+   background-image: url(../img/heading-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   background-size: cover;
+   width: 100%;
+   text-align: center;
+   padding: 40px;
+}
+
+.upcoming_second_here {
+   font-size: 15px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   color: var(--white);
+   padding-top: 150px;
+   padding-bottom: 15px;
+}
+
+.upcoming_second_meetings {
+   font-size: 36px;
+   font-weight: 800;
+   letter-spacing: 1px;
+   color: var(--white);
+   padding-bottom: 50px;
+}
+
+
+
+
+.upcomings {
+   background-image: url(../img/meetings-page-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100%;
+   padding: 0 70px;
+}
+
+.upcomings_meets {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding-top: 140px;
+   padding-bottom: 60px;
+}
+
+.upcomings_meets a:nth-child(1) {
+   padding: 11px 30px;
+   display: inline-block;
+   border-radius: 22px;
+   border: none;
+   font-size: 13px;
+   font-weight: 600;
+   background-color: var(--basic-color);
+   color: var(--white);
+}
+
+.upcomings_meets a:nth-child(2),
+.upcomings_meets a:nth-child(3),
+.upcomings_meets a:nth-child(4) {
+   padding: 11px 30px;
+   display: inline-block;
+   border-radius: 22px;
+   border: none;
+   font-size: 13px;
+   font-weight: 600;
+   background-color: var(--white);
+   color: var(--basic-color);
+}
+
+.upcomings_meets a:nth-child(2):hover,
+.upcomings_meets a:nth-child(3):hover,
+.upcomings_meets a:nth-child(4):hover {
+   background-color: var(--basic-color);
+   color: var(--white);
+}
+
+.upcomings_wrappers {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.upcoming_img img {
+   border-radius: 20px 20px 0 0;
+}
+
+.upcoming_block {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   padding: 20px;
+}
+
+.upcoming_price {
+   display: inline-block;
+   position: absolute;
+   border-radius: 10px;
+   font-weight: 600;
+   font-size: 16px;
+   background-color: rgba(250, 250, 250, 0.9);
+   padding: 7px 12px;
+   top: 15px;
+   left: 15px;
+}
+
+.upcomings_lecturers {
+   position: relative;
+   width: 360px;
+   background-color: var(--white);
+   border-radius: 20px;
+}
+
+.upcoming_meeting a {
+   font-size: 18px;
+   font-weight: 600;
+   text-decoration: none;
+   color: var(--black);
+}
+
+.upcoming_meeting p {
+   font-size: 14px;
+   line-height: 25px;
+   padding-top: 10px;
+   padding-right: 50px;
+}
+
+.upcoming_firsts {
+   font-size: 13px;
+   font-weight: 600;
+   color: var(--basic-color);
+}
+
+.upcoming_seconds {
+   font-size: 22px;
+   font-weight: 600;
+}
+
+.upcomings_number {
+   padding: 130px 0;
+}
+
+.upcomings_number_wrapper {
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+}
+
+.upcomings_number p {
+   border-radius: 5px;
+   background-color: var(--white);
+   color: var(--basic-color);
+   padding: 10px;
+   font-size: 16px;
+   width: 50px;
+   text-align: center;
+}
+
+.fa-chevron-right {
+   display: inline-block;
+   border-radius: 5px;
+   background-color: var(--white);
+   color: var(--basic-color);
+   padding: 10px;
+   font-size: 16px;
+   width: 50px;
+   text-align: center;
+}
+
+.upcomings_number p:hover,
+.fa-chevron-right:hover {
+   background-color: var(--basic-color);
+   color: var(--white);
+}
+
+
+
+
+.footer_text {
+   border-top: 1px solid rgb(238, 238, 238, 0.1);
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 25px;
+   text-align: center;
+   color: var(--white);
+   padding: 50px;
+}
+
+/* .footer_text p {
+   padding: 0 380px;
+} */
+
+.footer_text span {
+   color: var(--orange);
+}
